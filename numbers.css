@@ -1,0 +1,30 @@
+body {
+  background-color: lavender;
+  color: indigo;
+  font-family: sans-serif;
+}
+
+form p{
+  font-size: 2rem;
+  color: royalblue;
+  font-weight: bold;
+  text-align: center;
+  border: 1px;
+  border-bottom-color: indigo;
+}
+
+form button{
+  font-size: 1.2rem;
+  color: white;
+  background-color: indigo;
+}
+
+input{
+  font-size: 1.4rem;
+  border-style: double;
+  margin: 1px;
+}
+
+fieldset{
+  background-color: white;
+}

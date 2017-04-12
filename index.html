@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Numbers Form</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="numbers.css">
+  <script src="numberform.js"></script>
+</head>
+  
+<body>
+  <header>
+    <h1>MATH.</h1>
+  </header>
+  
+  <section>
+    <form name="mathForm">
+      <fieldset>
+        <legend>Let's do some math!</legend>
+        <input type="number" id="myNumber" value="0">
+        <h3>Enter A Number, Any Number, As Many As You Want!</h3>
+        <button onClick="addFunction(event)">ENTER</button>
+        <button onclick="formReset(event)" value="Reset form">RESET</button>
+        <br><br>
+        Number COUNT: <p id="count"></p>
+        <br>
+        Number SUM: <p id="sum"></p>
+        <br>
+        Number AVERAGE: <p id="avg"></p>
+      </fieldset>
+    </form>
+  </section>
+</body>
