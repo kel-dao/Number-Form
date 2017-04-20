@@ -25,7 +25,7 @@ function detectFunction(event) {
       strings.push(textarea);
       $( "#strings" ).html(strings.length);
       console.log(strings.length);
-      concatenate = cats + textarea;
+      cats = cats + textarea;
       console.log(cats);
       $( "#cats" ).html(cats);
   }
@@ -35,9 +35,9 @@ function detectFunction(event) {
 function formReset(event) {
     sum = 0;
     avg = 0;
-    avg = 0;
     numbers = [];
     strings = [];
     cats = "";
+    count = 0;
     event.preventDefault();
 }
