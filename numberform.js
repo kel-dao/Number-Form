@@ -1,6 +1,7 @@
 var inputs = [];
 var sum = 0;
 var avg = 0;
+
 function addFunction(event) {
   var myNumber = document.mathForm.myNumber.value;
   var number = Number(myNumber);

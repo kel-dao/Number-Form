@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title> Numbers or Strings?! </title>  
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="numbers.css">  
+</head>
+  
+<body>
+  <header>
+    <h1>Things and Strings.</h1>
+  </header>
+  <section>
+    <form name="mathForm">
+      <fieldset>
+        <legend>Enter something here!</legend>
+        <textarea id="textarea" placeholder="type something"></textarea>
+        <button onClick="detectFunction(event)">ENTER</button>
+        <button onclick="formReset(event)" value="Reset form">RESET</button>
+        <br><br>
+        Number COUNT: <p id="count"></p>
+        <br>
+        Number SUM: <p id="sum"></p>
+        <br>
+        Number AVERAGE: <p id="avg"></p>
+        <br>
+        Number of STRINGS: <p id="strings"></p>
+        <br>
+        Strings Strung Together: <p id="cats"></p>
+      </fieldset>
+    </form>
+  </section>
+
+  
+  <script src="stringsornumbers.js"></script>
+  <script src="jquery-3.2.0.min.js"></script>
+  </body>  
+</html>
