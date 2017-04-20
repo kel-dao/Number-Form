@@ -40,8 +40,4 @@ function formReset(event) {
   links = "";
   count = 0;
   numbers = [];
-  console.log(sum);
-  console.log(avg);  
-  event.preventDefault();
-
 }
