@@ -1,11 +1,11 @@
 var numbers = [];
-var sum = 0;
 var count = 0;
+var sum = 0;
 var avg = 0;
 var strings = [];
-var cats = "";
+var links = "";
 
-function detectFunction(event) {
+function detectGame(event) {
     var textarea = $("#textarea").val();
     var number = Number(textarea);
     if(!isNaN(number))  {
@@ -25,19 +25,23 @@ function detectFunction(event) {
       strings.push(textarea);
       $( "#strings" ).html(strings.length);
       console.log(strings.length);
-      cats = cats + textarea;
-      console.log(cats);
-      $( "#cats" ).html(cats);
+      links = links + textarea;
+      console.log(links);
+      $( "#links" ).html(links);
   }
     event.preventDefault();
 }
 
+
 function formReset(event) {
-    sum = 0;
-    avg = 0;
-    numbers = [];
-    strings = [];
-    cats = "";
-    count = 0;
-    event.preventDefault();
+  sum = 0;
+  avg = 0;
+  strings = [];
+  links = "";
+  count = 0;
+  numbers = [];
+  console.log(sum);
+  console.log(avg);  
+  event.preventDefault();
+
 }
